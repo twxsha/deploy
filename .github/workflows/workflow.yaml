@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-lagtest
+    runs-on: self-hosted
     strategy:
       matrix:
         node-version: [15.x]
